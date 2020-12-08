@@ -1,0 +1,40 @@
+body {
+    background : #efefef;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 300px;
+    height: 150px;
+    background-color: skyblue;
+    vertical-align: center;
+}
+
+#chord {
+}
+
+#btn,#two {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    box-shadow: o 10px 0 #d1483e;
+    user-select: none;
+}
+
+#btn:hover,#two:hover {
+}
+
+#btn:active,#two:active {
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
